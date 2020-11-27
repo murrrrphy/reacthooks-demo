@@ -20,7 +20,7 @@ function UseMemo() {
 const Child = React.memo((props)=>{
     console.log('child执行了');
     return (
-        <div onClick={props.onClick}>{props.data}</div>
+        <button onClick={props.onClick}>{props.data}</button>
     )
 })
 
